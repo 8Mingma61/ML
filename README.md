@@ -21,6 +21,6 @@ The goal is to help in early detection of apple diseases to support **precision 
 ## 🛠 Installation
 Clone the repo and install dependencies:
 ```bash
-git clone https://github.com/your-username/apple-disease-classification.git
+git clone https://github.com/8Mingma61/apple-disease-classification.git
 cd apple-disease-classification
 pip install -r requirements.txt
