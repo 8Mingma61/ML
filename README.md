@@ -15,32 +15,12 @@ The goal is to help in early detection of apple diseases to support **precision 
 ---
 
 ## 📂 Project Structure
-apple-disease-classification/
-│
-├── data/                     # Dataset (not uploaded to GitHub; add link or script to download)
-│   ├── train/                 # Training images
-│   ├── val/                   # Validation images
-│   └── test/                  # Test images
-│
-├── src/                      # Source code
-│   ├── train.py               # Training script
-│   ├── evaluate.py            # Model evaluation script
-│   ├── gradcam.py             # Grad-CAM visualization
-│   ├── dataset.py             # Dataset loading + preprocessing
-│   └── model.py               # Custom CNN model definition
-│
-├── notebooks/                # Jupyter notebooks for experiments
-│   └── apple_cnn_experiments.ipynb
-│
-├── models/                   # Saved models / checkpoints
-│   └── custom_cnn.pth
-│
-├── results/                  # Output results (figures, heatmaps, overlays)
-│   ├── accuracy_curve.png
-│   ├── loss_curve.png
-│   └── gradcam_samples/
-│
-├── requirements.txt          # List of dependencies
-├── README.md                 # Project documentation (overview, usage, etc.)
-├── LICENSE                   # License (e.g., MIT)
-└── .gitignore                # Files/folders to ignore (datasets, models, etc.)
+
+---
+
+## 🛠 Installation
+Clone the repo and install dependencies:
+```bash
+git clone https://github.com/your-username/apple-disease-classification.git
+cd apple-disease-classification
+pip install -r requirements.txt
