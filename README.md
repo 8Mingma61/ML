@@ -25,7 +25,7 @@ git clone https://github.com/8Mingma61/apple-disease-classification.git
 cd apple-disease-classification
 pip install -r requirements.txt
 
-
+---
 
 ## Dataset
 
